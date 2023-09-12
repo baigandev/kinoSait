@@ -1,0 +1,23 @@
+#boxes{
+  padding: 40px 0;
+  .boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   &--right{
+     text-align: center;
+     &__h1{
+       font-size: 48px;
+       width: 600px;
+       color: white;
+       font-weight: 800;
+     }
+     &__text{
+       padding: 10px 0;
+       font-size: 20px;
+       color: white;
+       width: 450px;
+     }
+   }
+  }
+}

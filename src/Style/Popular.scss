@@ -1,0 +1,16 @@
+#popular{
+  padding: 20px 0;
+  .popular{
+    display: flex;
+    align-items: flex-start;
+    gap: 9rem;
+    flex-wrap: wrap;
+    &--card{
+      width: 25%;
+      text-align: center;
+      &__img{
+        border-radius: 10px;
+      }
+    }
+  }
+}

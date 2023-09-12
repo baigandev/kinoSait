@@ -1,0 +1,50 @@
+#header{
+  padding: 25px 0;
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &--nav{
+      .active{
+        color: #fa1a1a;
+      }
+      &__link{
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0 20px;
+        color: #1c1919;
+      }
+    }
+    &--right{
+      &__search{
+        padding: 8px 20px;
+        outline: none;
+        border-radius: 30px;
+        background: 0;
+        border: 2px solid blue;
+        &::placeholder{
+          color: white;
+          font-weight: 500;
+          font-size: 14px;
+        }
+      }
+      &__btn{
+        padding: 8px 20px;
+        border-radius: 30px;
+        background: transparent;
+        color: white;
+        font-weight: 500;
+        font-size: 16px;
+        margin: 0 10px;
+        border: 2px solid blue;
+
+
+        &:hover{
+          border: 2px solid blue;
+          background: #de2323;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}

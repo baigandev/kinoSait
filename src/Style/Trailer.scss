@@ -1,0 +1,11 @@
+#trailer{
+  padding: 20px 0;
+  .trailer{
+    overflow-x: auto;
+
+    &--iframe{
+      margin: 0 20px;
+
+    }
+  }
+}

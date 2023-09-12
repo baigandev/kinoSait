@@ -1,0 +1,27 @@
+#block{
+  padding: 80px 0;
+  .block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    &--left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      &__h1{
+        font-size: 48px;
+        width: 600px;
+        color: white;
+        font-weight: 800;
+      }
+      &__text{
+        padding: 10px 0;
+        font-size: 20px;
+        color: white;
+        width: 450px;
+      }
+    }
+  }
+}

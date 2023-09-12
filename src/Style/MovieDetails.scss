@@ -1,0 +1,37 @@
+#movieDetails{
+  padding: 20px 0;
+  .movieDetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    &--img{
+      width: 300px;
+      border-radius: 10px;
+      border: 2px solid #f12b2b;
+    }
+    &--block{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      background: rgba(255, 255, 255, 0.76);
+      padding: 80px 40px;
+      border-radius: 15px;
+      color: black;
+      width: 900px;
+      text-align: center;
+      &__h2{
+        font-size: 32px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+      &__text{
+        margin: 10px 30px;
+      }
+      &__p{
+        width: 400px;
+        font-style: italic;
+        font-size: 16px;
+      }
+    }
+  }
+}

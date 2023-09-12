@@ -1,0 +1,14 @@
+#actors{
+  padding: 60px 0;
+  .actors{
+    display: flex;
+    align-items: flex-start;
+    overflow-x: auto;
+    &--card{
+      margin: 10px 40px;
+      &__img{
+        border-radius: 8px;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+#actorDetails{
+  padding: 20px 0;
+  .actorDetails{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    &--right{
+      width: 900px;
+    }
+  }
+}
